@@ -1,0 +1,28 @@
+{
+  "namespace": "App",
+  "fsNamespace": "app",
+  "loader": "../app.js",
+  "global": "app.global.js",
+  "core": "app.rtrdglx6.js",
+  "corePolyfilled": "app.ovq895hp.js",
+  "components": {
+    "app-home": {
+      "$": "h7wk1meh"
+    },
+    "app-profile": {
+      "$": "loettoy3"
+    },
+    "app-root": {
+      "$": "3wtgif4m"
+    },
+    "stencil-route": {
+      "$": "3wtgif4m"
+    },
+    "stencil-route-link": {
+      "$": "h7wk1meh"
+    },
+    "stencil-router": {
+      "$": "3wtgif4m"
+    }
+  }
+}
