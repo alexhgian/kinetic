@@ -2,20 +2,41 @@
   "hosting": {
     "rules": [
       {
-        "include": "/kinetic/",
+        "include": "/",
         "headers": [
           {
             "name": "Link",
-            "value": "</kinetic/build/app/app.ovq895hp.js>;rel=preload;as=script"
+            "value": "</build/app/app.ovq895hp.js>;rel=preload;as=script"
           },
           {
             "name": "Link",
-            "value": "</kinetic/build/app/3wtgif4m.js>;rel=preload;as=script"
+            "value": "</build/app/h7wk1meh.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</build/app/3wtgif4m.js>;rel=preload;as=script"
           }
         ]
       },
       {
-        "include": "/kinetic/build/app/**",
+        "include": "/profile/stencil",
+        "headers": [
+          {
+            "name": "Link",
+            "value": "</build/app/app.ovq895hp.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</build/app/loettoy3.js>;rel=preload;as=script"
+          },
+          {
+            "name": "Link",
+            "value": "</build/app/3wtgif4m.js>;rel=preload;as=script"
+          }
+        ]
+      },
+      {
+        "include": "/build/app/**",
         "headers": [
           {
             "name": "Cache-Control",
@@ -24,7 +45,7 @@
         ]
       },
       {
-        "include": "/kinetic/sw.js",
+        "include": "/sw.js",
         "headers": [
           {
             "name": "Cache-Control",

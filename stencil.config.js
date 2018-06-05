@@ -3,8 +3,7 @@ exports.config = {
   outputTargets: [
     { 
       type: 'www',
-      dir: 'docs',
-      baseUrl: '/kinetic'
+      dir: 'docs'
    }
   ]
 };
